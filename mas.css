@@ -1,0 +1,38 @@
+#menu {
+    background-color: #333; /* color de fondo */
+  }
+  
+  #menu ul {
+    list-style-type: none; /* quitar los puntos de la lista */
+    margin: 0; /* quitar los márgenes */
+    padding: 0; /* quitar los rellenos */
+    overflow: hidden; /* ocultar los elementos que se salen */
+    text-align: center; /* alinear el texto al centro */
+  }
+  
+  #menu li {
+    display: inline-block; /* mostrar los elementos en línea */
+  }
+  
+  #menu a {
+    display: block; /* mostrar los enlaces como bloques */
+    color: white; /* color del texto */
+    text-align: center; /* alinear el texto al centro */
+    padding: 14px 16px; /* relleno de arriba y abajo */
+    text-decoration: none; /* quitar la decoración de los enlaces */
+  }
+  
+  #menu a:hover {
+    background-color: #111; /* color de fondo al pasar el ratón por encima */
+  }
+#img{
+  position: absolute;
+  overflow: hidden; /* ocultar los elementos que se salen */
+  height:100%;
+  width: 100%;
+  right: 0px;
+}
+body{
+    
+  background-color: rgb(31, 111, 230);
+}

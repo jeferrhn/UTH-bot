@@ -1,0 +1,62 @@
+#menu {
+    background-color: #333; /* color de fondo */
+  }
+  
+  #menu ul {
+    list-style-type: none; /* quitar los puntos de la lista */
+    margin: 0; /* quitar los márgenes */
+    padding: 0; /* quitar los rellenos */
+    overflow: hidden; /* ocultar los elementos que se salen */
+    text-align: center; /* alinear el texto al centro */
+  }
+  
+  #menu li {
+    display: inline-block; /* mostrar los elementos en línea */
+  }
+  
+  #menu a {
+    display: block; /* mostrar los enlaces como bloques */
+    color: white; /* color del texto */
+    text-align: center; /* alinear el texto al centro */
+    padding: 14px 16px; /* relleno de arriba y abajo */
+    text-decoration: none; /* quitar la decoración de los enlaces */
+  }
+  
+  #menu a:hover {
+    background-color: #111; /* color de fondo al pasar el ratón por encima */
+  }
+  #img{
+    position: absolute;
+    overflow: hidden; /* ocultar los elementos que se salen */
+    height:100%;
+    width: 100%;
+    right: 0px;
+  }  body{  
+    background-color: rgb(31, 111, 230);
+    width: auto; /* Establece el ancho en automático */
+    height: auto;
+  }
+
+  #content{
+    color: #111;
+  }
+  li {
+    list-style-type: none; /* Elimina el punto */
+  }
+  #big-button {
+    top: 250px;
+    left: -15px;
+    position: relative;
+    display: block;
+    padding: 25px; /* Espacio interior */
+    text-align: center;
+    font-size: 25px; /* Tamaño de letra */
+    border-radius: 100px; /* Establece bordes redondos con un radio de 50px */
+    background-color: rgb(226, 226, 226);
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* Quita el subrayado */
+  }
+  #big-button:hover {
+    background-color: rgb(0, 0, 0);
+   color: rgb(173, 173, 173);
+  }
